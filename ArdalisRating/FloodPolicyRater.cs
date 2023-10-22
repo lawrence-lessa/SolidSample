@@ -38,7 +38,7 @@ namespace ArdalisRating
             } else if (policy.ElevationAboveSeaLevelFeet < 500)
             {
                 multiple = 1.5m;
-            } else if (policy.ElevationAboveSeaLevelFeet > 1000)
+            } else if (policy.ElevationAboveSeaLevelFeet < 1000)
             {
                 multiple = 1.1m;
             }

@@ -10,6 +10,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="policy - Copy.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="samplePolicies.json.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
